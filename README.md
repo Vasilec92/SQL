@@ -1,4 +1,5 @@
 # SQL
+Create and Manage the Database for Social Networking Sites
 
 Урок 1
 Установка окружения. DDL - команды
