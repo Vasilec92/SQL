@@ -58,3 +58,25 @@ INSERT INTO products (name, description , price, catalog_id , created_at, update
 VALUES ('test','test', 60, 1, NOW(), NOW());
 
 SELECT * FROM logs;
+
+-- Создайте SQL-запрос, который помещает в таблицу users миллион записей.
+-- создала для 1000 записей,  миллион будет долго выполнятся
+
+USE shop;
+
+DROP PROCEDURE IF EXISTS dowhile;
+
+DELIMITER //
+CREATE PROCEDURE dowhile()
+BEGIN
+  DECLARE userN INT DEFAULT 1;
+  WHILE userN <= 1000 DO
+    INSERT INTO users(name, birthday_at, created_at , updated_at)
+	VALUES (CONCAT('user_',userN) , NOW() , NOW(), NOW());
+    SET userN = userN + 1;
+  END WHILE;
+END //
+DELIMITER ;
+
+CALL dowhile();
+SELECT * FROM users;
