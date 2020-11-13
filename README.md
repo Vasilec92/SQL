@@ -1,6 +1,6 @@
 # SQL
 Create and Manage the Database for Social Networking Sites
-
+Database design and modeling, database management (SQL)
 Урок 1
 Установка окружения. DDL - команды
 Практическое задание
