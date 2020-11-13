@@ -72,7 +72,7 @@ BEGIN
   DECLARE userN INT DEFAULT 1;
   WHILE userN <= 1000 DO
     INSERT INTO users(name, birthday_at, created_at , updated_at)
-	VALUES (CONCAT('user_',userN) , NOW() , NOW(), NOW());
+	VALUES (CONCAT('user_',userN) ,  FROM_UNIXTIME(RAND() * 2147483647) , NOW(), NOW());
     SET userN = userN + 1;
   END WHILE;
 END //
