@@ -1,0 +1,43 @@
+{
+    "products": [
+        {
+            "name": "Intel Core i3-8100",
+            "description": "Процессор для настольных ПК",
+            "price": "8000.00",
+            "catalog": "Процессоры",
+            "created_at": "2020-10-25 11:17:48",
+            "updated_at": "2020-10-25 11:17:48"
+        },
+        {
+            "name": "Intel Core i5-7400",
+            "description": "Процессор для настольных ПК",
+            "price": "12700.00",
+            "catalog": "Процессоры",
+            "created_at": "2020-10-25 11:17:50",
+            "updated_at": "2020-10-25 11:17:50"
+        },
+        {
+            "name": "ASUS ROG MAXIMUS X HERO",
+            "description": "Материнская плата ASUS ROG MAXIMUS X HERO, Z370, Socket 1151-V2, DDR4, ATX",
+            "price": "19310.00",
+            "catalog": "Материнские платы",
+            "created_at": "2020-11-25 11:17:50",
+            "updated_at": "2020-11-25 11:17:50"
+        },
+        {
+            "name": "MSI B250M GAMING PRO",
+            "description": "Материнская плата MSI B250M GAMING PRO, B250, Socket 1151, DDR4, mATX",
+            "price": "5060.00",
+            "catalog": "Материнские платы",
+            "created_at": "2020-11-26 11:17:50",
+            "updated_at": "2020-11-26 11:17:50"
+        }
+    ],
+    "catalogs": [
+        "Процессоры",
+        "Материнские платы",
+        "Видеокарты",
+        "Жесткие диски",
+        "Оперативная память"
+    ]
+}
